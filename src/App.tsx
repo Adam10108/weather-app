@@ -1,7 +1,4 @@
 import "./App.css"
+import { WeatherApp } from "@/components"
 
-function App() {
-  return <>Weather App</>
-}
-
-export default App
+export const App = () => <WeatherApp />
